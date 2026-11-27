@@ -1,0 +1,5 @@
+{
+  "name": "dev-workflow",
+  "version": "0.1.0",
+  "description": "與專案無關的通用開發工作流：除錯、完成前自我審查、code review 流程、測試原則、NestJS 踩坑提醒、技術文件寫法。專案規則請放在各專案的 AGENTS.md。"
+}

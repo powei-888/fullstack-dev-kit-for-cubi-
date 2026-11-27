@@ -1,38 +1,15 @@
 {
-  "name": "fullstack-dev-kit",
+  "name": "cubi-agent-kit",
   "owner": {
-    "name": "PinChi Huang",
-    "url": "https://github.com/PinQiH"
+    "name": "CUBI Team"
   },
-  "description": "全端開發規範與工作流 kit：核心工作流 + Node 後端 + Vue/Nuxt 前端 + Python，模組化安裝，各取所需。",
+  "description": "跨 Claude Code、Codex、Antigravity 共用的通用開發工作流。",
   "plugins": [
     {
-      "name": "workflow-core",
-      "source": "./plugins/workflow-core",
-      "version": "0.2.0",
-      "license": "MIT",
-      "description": "所有人的基座：跨平台 code-review / debug / git-commit / security-review / 決策 / 規劃 / 架構 skills，另附 Claude Code 團隊標準與安全 hooks。"
-    },
-    {
-      "name": "backend-node",
-      "source": "./plugins/backend-node",
-      "version": "0.2.0",
-      "license": "MIT",
-      "description": "Node.js / NestJS 後端：分層、DB、錯誤處理、文件與測試規範，提供 api-doc、cronjob-doc、test-backend 跨平台 skills。"
-    },
-    {
-      "name": "frontend-vue",
-      "source": "./plugins/frontend-vue",
-      "version": "0.2.0",
-      "license": "MIT",
-      "description": "Vue 3 / Nuxt 3：架構、UX、元件文件與測試規範，提供 component-doc、test-frontend 跨平台 skills。"
-    },
-    {
-      "name": "python-toolkit",
-      "source": "./plugins/python-toolkit",
-      "version": "0.2.0",
-      "license": "MIT",
-      "description": "Python：專家、venv 與程式執行規範，提供 run-python 跨平台 skill 與 Claude Code agent。"
+      "name": "dev-workflow",
+      "source": "./plugins/dev-workflow",
+      "version": "0.1.0",
+      "description": "與專案無關的通用開發工作流：除錯、完成前自我審查、code review 流程、測試原則、NestJS 踩坑提醒、技術文件寫法。專案規則請放在各專案的 AGENTS.md。"
     }
   ]
 }
